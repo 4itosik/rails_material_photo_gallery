@@ -9,15 +9,21 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails_material_photo_gallery'
+gem 'rails_material_photo_gallery', github: '4itosik/rails_material_photo_gallery', branch: 'master'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install rails_material_photo_gallery
-
 ## Usage
+
+```
+  @import 'material-photo-gallery';
+```
+in application.scss
+
+```
+  //= require 'material-photo-gallery'
+```
+in application.js
